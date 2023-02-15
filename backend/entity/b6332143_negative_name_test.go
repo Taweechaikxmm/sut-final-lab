@@ -20,4 +20,5 @@ func TestNameNotBeBlank(t *testing.T) {
 	g.Expect(ok).NotTo(BeTrue())
 	g.Expect(err).NotTo(BeNil())
 	g.Expect(err.Error()).To(Equal("ห้ามว่าง"))
+	//ชื่อห้ามเป็นค่าว่าง
 }
